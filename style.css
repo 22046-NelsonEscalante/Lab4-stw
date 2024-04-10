@@ -1,0 +1,351 @@
+#cover{
+    width: 100vmin;
+    height: 100vmin;
+    background: #351d73;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cover *{
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#moon {
+    width: 45vmin;
+    height: 45vmin;
+    background: #b1bfc8;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#moonlight {
+    width: 50vmin;
+    height: 50vmin;
+    background: #693158;
+    border-radius: 50%;
+    filter: blur(10vmin);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#moon_bright {
+    width: 35vmin;
+    height: 35vmin;
+    background: #e8eced;
+    border-radius: 50%;
+    filter: blur(10vmin);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#castle_top {
+    width: 0;
+    height: 0;
+    border-left: 2vmin solid transparent; 
+    border-right: 2vmin solid transparent;
+    border-bottom: 6vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -200%);
+}
+
+#tower_up {
+    width: 6vmin;
+    height: 0;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-top: 3vmin solid #351d73;
+    border-radius: 0.25vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-113%, -210%);
+}
+
+#tower_body {
+    width: 4vmin;
+    height: 10vmin;
+    background: #351d73;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-145%, -34%);
+}
+
+#shadow1 {
+    width: 0;
+    height: 0;
+    border-left: 2vmin solid transparent; 
+    border-right: 2vmin solid transparent;
+    border-bottom: 6vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, 15%);
+}
+
+#roof1 {
+    width: 0;
+    height: 0;
+    border-left: 5vmin solid transparent; 
+    border-right: 5vmin solid transparent;
+    border-bottom: 9vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -24%);
+}
+
+#roof2 {
+    width: 12vmin;
+    height: 0;
+    border-left: 0vmin solid transparent;
+    border-right: 1.6vmin solid transparent;
+    border-bottom: 6vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-16%, -50%);
+}
+
+#hut {
+    width: 0;
+    height: 0;
+    border-left: 4.44vmin solid transparent; 
+    border-right: 4.44vmin solid transparent;
+    border-bottom: 8vmin solid #351d73;
+    top: 50%;
+    left: 50%;
+    transform: translate(-61%, -16%);
+}
+
+#house1 {
+    width: 11.25vmin;
+    height: 7.21vmin;
+    background: #351d73;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -4.6%);
+}
+
+#house2 {
+    width: 0;
+    height: 0;
+    border-left: 1.5vmin solid transparent; 
+    border-right: 1.5vmin solid transparent;
+    border-bottom: 2.75vmin solid #351d73;
+    top: 50%;
+    left: 50%;
+    transform: translate(245%, -110%);
+}
+
+#mountain1 {
+    width: 45vmin;
+    height: 0;
+    border-left: 10vmin solid transparent;
+    border-right: 10vmin solid transparent;
+    border-bottom: 50vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 13.5%);
+    border-radius: 13vmin;
+}
+
+#mountain2 {
+    width: 0;
+    height: 0;
+    border-left: 0vmin solid transparent; 
+    border-right: 100vmin solid transparent;
+    border-bottom: 30vmin solid #2a1e34;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, 20%);
+    border-radius: 1vmin;
+}
+
+#mountain3 {
+    width: 100vmin;
+    height: 20vmin;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, 150%);
+    background: #2a1e34;
+}
+
+#mountain4 {
+    width: 0;
+    height: 0;
+    border-left: 30vmin solid transparent; 
+    border-right: 0vmin solid transparent;
+    border-bottom: 15vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(-135%, 40.5%);
+    border-radius: 5vmin;
+}
+
+#mountain5 {
+    width: 0;
+    height: 0;
+    border-left: 0vmin solid transparent; 
+    border-right: 40vmin solid transparent;
+    border-bottom: 35vmin solid #2a1e34;
+    top: 50%;
+    left: 50%;
+    transform: translate(27.5%, 16.7%);
+    border-radius: 5vmin;
+}
+
+.window1 {
+    width: 1vmin;
+    height: 1.5vmin;
+    border-top-left-radius: 1vmin;
+    border-top-right-radius: 1vmin;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #c24e27; 
+}
+
+#w1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-420%, -230%);
+}
+
+#w2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-420%, -30%);
+}
+
+#w3 {
+    width: 1.25vmin;
+    height: 3vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 120%);
+}
+
+#w4 {
+    top: 50%;
+    left: 50%;
+    transform: translate(200%, 40%);
+}
+
+#w5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(480%, 40%);
+}
+
+#w6 {
+    top: 50%;
+    left: 50%;
+    transform: translate(480%, 250%);
+}
+
+.window_shadow {
+    width: 1vmin;
+    height: 1.5vmin;
+    border-top-left-radius: 1vmin;
+    border-top-right-radius: 1vmin;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #2a1e34; 
+}
+
+#ws1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-400%, -230%);
+}
+
+#ws2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-400%, -30%);
+}
+
+#ws3 {
+    width: 1.25vmin;
+    height: 3vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 120%);
+}
+
+.window2 {
+    width: 0.5vmin;
+    height: 3vmin;
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    background-color: #c24e27;
+}
+
+#w2_1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, 120%);
+}
+
+#w2_2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-540%, 120%);
+}
+
+.window_shadow_2 {
+    width: 0.5vmin;
+    height: 3vmin;
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    background-color: #2a1e34;
+}
+
+#ws2_1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, 120%);
+}
+
+#ws2_2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-510%, 120%);
+}
+
+.window3 {
+    width: 0.75vmin;
+    height: 1.5vmin;
+    border-top-left-radius: 1vmin;
+    border-top-right-radius: 1vmin;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #2a1e34; 
+}
+
+#w3_1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(1050%, -0%);
+}
+
+#w3_2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(1180%, -0%);
+}
+
+#w3_3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(1050%, 180%);
+}
+
+#w3_4 {
+    top: 50%;
+    left: 50%;
+    transform: translate(1180%, 180%);
+}
